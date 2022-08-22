@@ -16,5 +16,11 @@ public class Alg4 {
         System.out.println("  " + numeroescolhido + " - " + multiplicador + " " + "= " + (numeroescolhido - multiplicador));
         multiplicador++;
         }
+
+        while(multiplicador < 10) {
+            System.out.print(numeroescolhido + " * " + multiplicador + " " + "= " + (numeroescolhido * multiplicador));
+            System.out.println("  " + numeroescolhido + " / " + multiplicador + " " + "= " + (numeroescolhido / multiplicador));
+            multiplicador++;
+        }
     }
 }
